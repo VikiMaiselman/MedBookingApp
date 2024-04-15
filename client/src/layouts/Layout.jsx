@@ -5,7 +5,7 @@ import CustomRoutes from "../routes/CustomRoutes";
 export default function Layout() {
   return (
     <>
-      <Header></Header>
+      <Header />
       <main>
         <CustomRoutes></CustomRoutes>
       </main>

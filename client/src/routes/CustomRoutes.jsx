@@ -12,14 +12,14 @@ import Doctors from "../pages/Doctors";
 export default function CustomRoutes() {
   return (
     <Routes>
-      <Route path="/" element={Home}></Route>
-      <Route path="/doctors" element={Doctors}></Route>
-      <Route path="doctors/:id" element={DoctorDetails}></Route>
-      <Route path="/contacts" element={Contacts}></Route>
-      <Route path="/services" element={Services}></Route>
-      <Route path="/login" element={Login}></Route>
-      <Route path="/register" element={Signup}></Route>
-      <Route path="*" element={<Navigate to="/" replace />}></Route>
+      <Route path="/" element={<Home />} />
+      <Route path="/doctors" element={<Doctors />} />
+      <Route path="doctors/:id" element={<DoctorDetails />}></Route>
+      <Route path="/contacts" element={<Contacts />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Signup />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );
 }
