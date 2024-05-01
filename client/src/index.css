@@ -28,6 +28,10 @@
   .header {
     @apply bg-gradient-to-r from-white to-indigo-200 h-[80px] leading-[100px];
   }
+
+  .hero__section {
+    @apply bg-gradient-to-tr from-white to-orange-50;
+  }
 }
 
 @media only screen and(max-width: 1024px) {
